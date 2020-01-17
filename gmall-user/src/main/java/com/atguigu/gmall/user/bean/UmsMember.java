@@ -1,185 +1,144 @@
 package com.atguigu.gmall.user.bean;
 
 
+
 import java.io.Serializable;
-import java.util.Date;
+
 
 public class UmsMember implements Serializable {
 
-    private String id;
-    private String memberLevelId;
+    private Long id;
+    private Long memberLevelId;
     private String username;
     private String password;
     private String nickname;
     private String phone;
-    private int status;
-    private Date createTime;
+    private Integer status;
+    private java.util.Date createTime;
     private String icon;
-    private int gender;
-    private Date birthday;
+    private Integer gender;
+    private java.util.Date birthday;
     private String city;
     private String job;
     private String personalizedSignature;
-    private int sourceType;
-    private int integration;
-    private int growth;
-    private int luckeyCount;
-    private int historyIntegration;
+    private Integer sourceType;
+    private Integer integration;
+    private Integer growth;
+    private Integer luckeyCount;
+    private Integer historyIntegration;
 
-    public String getId() {
-        return id;
+    public void setId(Long value) {
+        this.id = value;
     }
-
-    public void setId(String id) {
-        this.id = id;
+    public Long getId() {
+       return this.id;
     }
-
-    public String getMemberLevelId() {
-        return memberLevelId;
+    public void setMemberLevelId(Long value) {
+        this.memberLevelId = value;
     }
-
-    public void setMemberLevelId(String memberLevelId) {
-        this.memberLevelId = memberLevelId;
+    public Long getMemberLevelId() {
+       return this.memberLevelId;
     }
-
+    public void setUsername(String value) {
+        this.username = value;
+    }
     public String getUsername() {
-        return username;
+       return this.username;
     }
-
-    public void setUsername(String username) {
-        this.username = username;
+    public void setPassword(String value) {
+        this.password = value;
     }
-
     public String getPassword() {
-        return password;
+       return this.password;
     }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setNickname(String value) {
+        this.nickname = value;
     }
-
     public String getNickname() {
-        return nickname;
+       return this.nickname;
     }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
+    public void setPhone(String value) {
+        this.phone = value;
     }
-
     public String getPhone() {
-        return phone;
+       return this.phone;
     }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setStatus(Integer value) {
+        this.status = value;
     }
-
-    public int getStatus() {
-        return status;
+    public Integer getStatus() {
+       return this.status;
     }
-
-    public void setStatus(int status) {
-        this.status = status;
+    public void setCreateTime(java.util.Date value) {
+        this.createTime = value;
     }
-
-    public Date getCreateTime() {
-        return createTime;
+    public java.util.Date getCreateTime() {
+       return this.createTime;
     }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setIcon(String value) {
+        this.icon = value;
     }
-
     public String getIcon() {
-        return icon;
+       return this.icon;
     }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
+    public void setGender(Integer value) {
+        this.gender = value;
     }
-
-    public int getGender() {
-        return gender;
+    public Integer getGender() {
+       return this.gender;
     }
-
-    public void setGender(int gender) {
-        this.gender = gender;
+    public void setBirthday(java.util.Date value) {
+        this.birthday = value;
     }
-
-    public Date getBirthday() {
-        return birthday;
+    public java.util.Date getBirthday() {
+       return this.birthday;
     }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setCity(String value) {
+        this.city = value;
     }
-
     public String getCity() {
-        return city;
+       return this.city;
     }
-
-    public void setCity(String city) {
-        this.city = city;
+    public void setJob(String value) {
+        this.job = value;
     }
-
     public String getJob() {
-        return job;
+       return this.job;
     }
-
-    public void setJob(String job) {
-        this.job = job;
+    public void setPersonalizedSignature(String value) {
+        this.personalizedSignature = value;
     }
-
     public String getPersonalizedSignature() {
-        return personalizedSignature;
+       return this.personalizedSignature;
     }
-
-    public void setPersonalizedSignature(String personalizedSignature) {
-        this.personalizedSignature = personalizedSignature;
+    public void setSourceType(Integer value) {
+        this.sourceType = value;
     }
-
-    public int getSourceType() {
-        return sourceType;
+    public Integer getSourceType() {
+       return this.sourceType;
     }
-
-    public void setSourceType(int sourceType) {
-        this.sourceType = sourceType;
+    public void setIntegration(Integer value) {
+        this.integration = value;
     }
-
-    public int getIntegration() {
-        return integration;
+    public Integer getIntegration() {
+       return this.integration;
     }
-
-    public void setIntegration(int integration) {
-        this.integration = integration;
+    public void setGrowth(Integer value) {
+        this.growth = value;
     }
-
-    public int getGrowth() {
-        return growth;
+    public Integer getGrowth() {
+       return this.growth;
     }
-
-    public void setGrowth(int growth) {
-        this.growth = growth;
+    public void setLuckeyCount(Integer value) {
+        this.luckeyCount = value;
     }
-
-    public int getLuckeyCount() {
-        return luckeyCount;
+    public Integer getLuckeyCount() {
+       return this.luckeyCount;
     }
-
-    public void setLuckeyCount(int luckeyCount) {
-        this.luckeyCount = luckeyCount;
+    public void setHistoryIntegration(Integer value) {
+        this.historyIntegration = value;
     }
-
-    public int getHistoryIntegration() {
-        return historyIntegration;
+    public Integer getHistoryIntegration() {
+       return this.historyIntegration;
     }
-
-    public void setHistoryIntegration(int historyIntegration) {
-        this.historyIntegration = historyIntegration;
-    }
-
-
-
-
-
 }
